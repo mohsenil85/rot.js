@@ -7,5 +7,19 @@
     "frame": false,
     "width": 1015,
     "height": 661
-  }
+  },
+  "description": "rot.js addons =============",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohsenil85/rot.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohsenil85/rot.js/issues"
+  },
+  "homepage": "https://github.com/mohsenil85/rot.js"
 }

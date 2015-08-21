@@ -53,6 +53,10 @@ Player.prototype.handleEvent = function(e) {
 }
 
 Player.prototype._handleKey = function(code) {
+	if (code === ROT.VK_ESCAPE){
+
+		return Term.invokeTerm();
+	}
 	if (code in this._keys) {
 		Game.textBuffer.clear();
 

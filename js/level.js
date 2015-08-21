@@ -3,7 +3,7 @@ var Level = function() {
 	this._beings = {};
 
 	/* FIXME map data */
-	this._size = new XY(80, 25);
+	this._size = new XY(100, 45);
 	this._map = {};
 
 	this._empty = new Entity({ch:".", fg:"#888", bg:null});
